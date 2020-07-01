@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28A1FEF024ABB62B002DA0B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1FEEF24ABB62B002DA0B9 /* AppDelegate.swift */; };
+		28A1FEF224ABB62B002DA0B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1FEF124ABB62B002DA0B9 /* SceneDelegate.swift */; };
+		28A1FEF424ABB62B002DA0B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1FEF324ABB62B002DA0B9 /* ViewController.swift */; };
+		28A1FEF724ABB62B002DA0B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A1FEF524ABB62B002DA0B9 /* Main.storyboard */; };
+		28A1FEF924ABB62D002DA0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A1FEF824ABB62D002DA0B9 /* Assets.xcassets */; };
+		28A1FEFC24ABB62D002DA0B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A1FEFA24ABB62D002DA0B9 /* LaunchScreen.storyboard */; };
+		28A1FF0824ABB88C002DA0B9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1FF0724ABB88C002DA0B9 /* Item.swift */; };
+		28A1FF0A24ABBC5C002DA0B9 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1FF0924ABBC5C002DA0B9 /* AddViewController.swift */; };
+		28A1FF0D24AC715C002DA0B9 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1FF0C24AC715C002DA0B9 /* ItemCell.swift */; };
+		85AD1C65306655F9AE1A952C /* Pods_BuntiNizama_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CEAA0DBE7DFC84151C17C2 /* Pods_BuntiNizama_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10366F805CB3740C2D616EC0 /* Pods-BuntiNizama_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuntiNizama_Test.debug.xcconfig"; path = "Target Support Files/Pods-BuntiNizama_Test/Pods-BuntiNizama_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		28A1FEEC24ABB62B002DA0B9 /* BuntiNizama_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuntiNizama_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A1FEEF24ABB62B002DA0B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28A1FEF124ABB62B002DA0B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28A1FEF324ABB62B002DA0B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		28A1FEF624ABB62B002DA0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28A1FEF824ABB62D002DA0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28A1FEFB24ABB62D002DA0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28A1FEFD24ABB62D002DA0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A1FF0724ABB88C002DA0B9 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		28A1FF0924ABBC5C002DA0B9 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		28A1FF0C24AC715C002DA0B9 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		434CF0EBD994C3CEE3557E01 /* Pods-BuntiNizama_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuntiNizama_Test.release.xcconfig"; path = "Target Support Files/Pods-BuntiNizama_Test/Pods-BuntiNizama_Test.release.xcconfig"; sourceTree = "<group>"; };
+		54CEAA0DBE7DFC84151C17C2 /* Pods_BuntiNizama_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuntiNizama_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28A1FEE924ABB62B002DA0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AD1C65306655F9AE1A952C /* Pods_BuntiNizama_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A1FEE324ABB62B002DA0B9 = {
+			isa = PBXGroup;
+			children = (
+				28A1FEEE24ABB62B002DA0B9 /* BuntiNizama_Test */,
+				28A1FEED24ABB62B002DA0B9 /* Products */,
+				6E3430BA9AA3AE5F9CCFF130 /* Pods */,
+				50357D5D643F261A7E2EB524 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28A1FEED24ABB62B002DA0B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A1FEEC24ABB62B002DA0B9 /* BuntiNizama_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28A1FEEE24ABB62B002DA0B9 /* BuntiNizama_Test */ = {
+			isa = PBXGroup;
+			children = (
+				28A1FEEF24ABB62B002DA0B9 /* AppDelegate.swift */,
+				28A1FEF124ABB62B002DA0B9 /* SceneDelegate.swift */,
+				28A1FEF324ABB62B002DA0B9 /* ViewController.swift */,
+				28A1FF0924ABBC5C002DA0B9 /* AddViewController.swift */,
+				28A1FEF524ABB62B002DA0B9 /* Main.storyboard */,
+				28A1FEF824ABB62D002DA0B9 /* Assets.xcassets */,
+				28A1FEFA24ABB62D002DA0B9 /* LaunchScreen.storyboard */,
+				28A1FEFD24ABB62D002DA0B9 /* Info.plist */,
+				28A1FF0B24AC7147002DA0B9 /* Custom Cell */,
+				28A1FF0624ABB88C002DA0B9 /* DataBaseModel */,
+			);
+			path = BuntiNizama_Test;
+			sourceTree = "<group>";
+		};
+		28A1FF0624ABB88C002DA0B9 /* DataBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				28A1FF0724ABB88C002DA0B9 /* Item.swift */,
+			);
+			path = DataBaseModel;
+			sourceTree = "<group>";
+		};
+		28A1FF0B24AC7147002DA0B9 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				28A1FF0C24AC715C002DA0B9 /* ItemCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		50357D5D643F261A7E2EB524 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAA0DBE7DFC84151C17C2 /* Pods_BuntiNizama_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E3430BA9AA3AE5F9CCFF130 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10366F805CB3740C2D616EC0 /* Pods-BuntiNizama_Test.debug.xcconfig */,
+				434CF0EBD994C3CEE3557E01 /* Pods-BuntiNizama_Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A1FEEB24ABB62B002DA0B9 /* BuntiNizama_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A1FF0024ABB62D002DA0B9 /* Build configuration list for PBXNativeTarget "BuntiNizama_Test" */;
+			buildPhases = (
+				8A2AB3455357C99C87E0D405 /* [CP] Check Pods Manifest.lock */,
+				28A1FEE824ABB62B002DA0B9 /* Sources */,
+				28A1FEE924ABB62B002DA0B9 /* Frameworks */,
+				28A1FEEA24ABB62B002DA0B9 /* Resources */,
+				76F31783364697DD00467EAB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuntiNizama_Test;
+			productName = BuntiNizama_Test;
+			productReference = 28A1FEEC24ABB62B002DA0B9 /* BuntiNizama_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28A1FEE424ABB62B002DA0B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				TargetAttributes = {
+					28A1FEEB24ABB62B002DA0B9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 28A1FEE724ABB62B002DA0B9 /* Build configuration list for PBXProject "BuntiNizama_Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28A1FEE324ABB62B002DA0B9;
+			productRefGroup = 28A1FEED24ABB62B002DA0B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28A1FEEB24ABB62B002DA0B9 /* BuntiNizama_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28A1FEEA24ABB62B002DA0B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A1FEFC24ABB62D002DA0B9 /* LaunchScreen.storyboard in Resources */,
+				28A1FEF924ABB62D002DA0B9 /* Assets.xcassets in Resources */,
+				28A1FEF724ABB62B002DA0B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76F31783364697DD00467EAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuntiNizama_Test/Pods-BuntiNizama_Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuntiNizama_Test/Pods-BuntiNizama_Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuntiNizama_Test/Pods-BuntiNizama_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A2AB3455357C99C87E0D405 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuntiNizama_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A1FEE824ABB62B002DA0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A1FF0A24ABBC5C002DA0B9 /* AddViewController.swift in Sources */,
+				28A1FF0824ABB88C002DA0B9 /* Item.swift in Sources */,
+				28A1FF0D24AC715C002DA0B9 /* ItemCell.swift in Sources */,
+				28A1FEF424ABB62B002DA0B9 /* ViewController.swift in Sources */,
+				28A1FEF024ABB62B002DA0B9 /* AppDelegate.swift in Sources */,
+				28A1FEF224ABB62B002DA0B9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28A1FEF524ABB62B002DA0B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A1FEF624ABB62B002DA0B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28A1FEFA24ABB62D002DA0B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A1FEFB24ABB62D002DA0B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28A1FEFE24ABB62D002DA0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28A1FEFF24ABB62D002DA0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28A1FF0124ABB62D002DA0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10366F805CB3740C2D616EC0 /* Pods-BuntiNizama_Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuntiNizama_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BuntiNizama-Test.BuntiNizama-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28A1FF0224ABB62D002DA0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434CF0EBD994C3CEE3557E01 /* Pods-BuntiNizama_Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuntiNizama_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BuntiNizama-Test.BuntiNizama-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A1FEE724ABB62B002DA0B9 /* Build configuration list for PBXProject "BuntiNizama_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A1FEFE24ABB62D002DA0B9 /* Debug */,
+				28A1FEFF24ABB62D002DA0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A1FF0024ABB62D002DA0B9 /* Build configuration list for PBXNativeTarget "BuntiNizama_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A1FF0124ABB62D002DA0B9 /* Debug */,
+				28A1FF0224ABB62D002DA0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28A1FEE424ABB62B002DA0B9 /* Project object */;
+}
